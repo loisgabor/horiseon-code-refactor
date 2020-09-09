@@ -1,3 +1,4 @@
+/* This first seciton is for elements  */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,7 +17,7 @@ a {
 p {
   font-size: 16px;
 }
-
+/* This section is for the header  */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -50,7 +51,19 @@ header div ul li {
   display: inline-block;
   margin-left: 25px;
 }
+/* This section is for the footer  */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+}
 
+footer h2 {
+  font-size: 20px;
+}
+/* This section is for classes  */
 .hero {
   height: 800px;
   width: 100%;
@@ -86,7 +99,7 @@ header div ul li {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-
+/* These are in regard to the benefit section  */
 .benefit {
   margin-bottom: 32px;
   color: #ffffff;
@@ -102,7 +115,7 @@ header div ul li {
   margin: 10px auto;
   max-width: 150px;
 }
-
+/* These are in regards to servies  */
 .services {
   margin-bottom: 20px;
   padding: 50px;
@@ -119,16 +132,4 @@ header div ul li {
 .services h2 {
   margin-bottom: 20px;
   font-size: 36px;
-}
-
-footer {
-  padding: 30px;
-  clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  text-align: center;
-}
-
-footer h2 {
-  font-size: 20px;
 }
